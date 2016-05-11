@@ -87,11 +87,12 @@
         </mailingList>
     </mailingLists>
 
+
     <scm>
-        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-unomi.git</connection>
-        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-unomi.git</developerConnection>
+        <connection>scm:git:git@github.com:Jahia/unomi-fork.git</connection>
+        <developerConnection>scm:git:git@github.com:Jahia/unomi-fork.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://git-wip-us.apache.org/repos/asf/incubator-unomi.git</url>
+        <url>https://github.com/Jahia/unomi-fork.git</url>
     </scm>
 
     <developers>
@@ -212,11 +213,10 @@
     </developers>
 
     <distributionManagement>
-        <site>
-            <id>website</id>
-            <!-- we put a fake URL here for staging to work -->
-            <url>scp://www.mycompany.com/www/docs/project/</url>
-        </site>
+        <repository>
+            <id>unomi-releases</id>
+            <url>https://devtools.jahia.com/nexus/content/repositories/unomi-releases</url>
+        </repository>
     </distributionManagement>
 
     <repositories>
