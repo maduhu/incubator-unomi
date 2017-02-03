@@ -878,7 +878,7 @@
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <preparationGoals>clean install</preparationGoals>
                         <goals>deploy</goals>
-                        <arguments>-Papache-release,integration-tests</arguments>
+                        <arguments>-DaltDeploymentRepository=unomi-releases::default::https://devtools.jahia.com/nexus/repository/unomi-releases/</arguments>
                     </configuration>
                 </plugin>
                 <plugin>
