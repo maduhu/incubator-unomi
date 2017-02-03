@@ -3,6 +3,7 @@
 target
 .classpath
 .project
+pom.xml.versionsBackup
 
 /src/main/webapp/META-INF/MANIFEST.MF
 /.idea
