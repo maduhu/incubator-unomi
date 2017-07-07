@@ -101,7 +101,7 @@
     <scm>
         <connection>scm:git:git@github.com:Jahia/unomi-fork.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/unomi-fork.git</developerConnection>
-        <tag>1-1-1-BRANCH</tag>
+        <tag>1-1-2-BRANCH</tag>
         <url>https://github.com/Jahia/unomi-fork.git</url>
     </scm>
 
