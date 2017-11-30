@@ -35,7 +35,7 @@
         event tracking server.
     </description>
     <url>http://unomi.incubator.apache.org</url>
-    <version>1.2.1-jahia</version>
+    <version>1.2.2-jahia-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <licenses>
@@ -101,7 +101,7 @@
     <scm>
         <connection>scm:git:git@github.com:Jahia/unomi-fork.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/unomi-fork.git</developerConnection>
-        <tag>unomi-root-1.2.1-jahia</tag>
+        <tag>1-2-1-BRANCH</tag>
         <url>https://github.com/Jahia/unomi-fork.git</url>
     </scm>
 
